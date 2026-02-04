@@ -223,6 +223,10 @@ Project Link: [https://github.com/yourusername/weather-app](https://github.com/y
 - [ ] Weather maps integration
 - [ ] Multi-language support
 
+## 🗺️ roadmap.sh
+
+This project is part of the [Weather API Wrapper Service](https://roadmap.sh/projects/weather-api-wrapper-service) challenge.
+
 ---
 
 ⭐ If you found this project helpful, please give it a star!
