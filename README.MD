@@ -23,8 +23,16 @@ A beautiful and modern desktop weather application built with Python and PyQt5 t
 
 ## 📸 Screenshots
 
-![App Interface](screenshot.png)
-*Clean and intuitive weather interface*
+<table align="center">
+  <tr>
+    <td><img src="output1.png" alt="Weather App Initial State" width="400"></td>
+    <td><img src="output2.png" alt="Weather App with Data" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><em>App on startup - Ready to search</em></td>
+    <td align="center"><em>Displaying live weather data</em></td>
+  </tr>
+</table>
 
 ## 🚀 Getting Started
 
@@ -200,7 +208,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+SAMIULLAH - [SamiKhan43](https://github.com/SamiKhan43) - [EMAIL](qwertynoob456@gmail.com)
 
 Project Link: [https://github.com/yourusername/weather-app](https://github.com/yourusername/weather-app)
 
