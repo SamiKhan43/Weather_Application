@@ -11,6 +11,7 @@ import requests
 class WeatherApp(QWidget):
     def __init__(self):
         super().__init__()
+        load_dotenv()
         self.title_label = QLabel("Weather App")
         self.title_label.setAlignment(Qt.AlignHCenter)
         self.title_label.setStyleSheet("font-size: 28px; font-weight: bold; color: #ffffff;")
@@ -126,7 +127,6 @@ class WeatherApp(QWidget):
         self.search_button.clicked.connect(self.get_weather)
 
     def get_weather(self):
-        load_dotenv()
         API_KEY = os.getenv("WEATHER_API_KEY")
         city = self.city_input.text()
         url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
